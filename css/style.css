@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.conteiner {
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+.bg-image {
+    background: url("../img/home-banner.jpg")center/cover;
+    height: 100vh;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+nav ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    font: 600 14px arial;
+    color: #002347;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+nav a:hover {
+    color: #fdc632;
+}
+
+#headerinf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.text {
+    color: #002347;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.text h3 {
+    font: 600 20px arial;
+}
+
+div h1 {
+    font: 700 48px arial;
+    padding: 30px 0 60px 0;
+}
+
+.buttons a {
+    text-decoration: none;
+    font: 600 13px arial;
+
+    border-radius: 5px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+.buttons a[type="but1"] {
+    color: #fdc632;
+    background: #002347;
+    border: 1px solid #002347;
+    margin-right: 5px;
+}
+
+.buttons a[type="but2"] {
+    color: #002347;
+    background: #fdc632;
+    border: 1px solid #fdc632;
+    margin-left: 5px;
+}
+
+.buttons a[type="but1"]:hover {
+    background: transparent;
+}
+
+.buttons a[type="but2"]:hover {
+    background: #002347;
+    color: #fdc632;
+    border: 1px solid #002347;
+}
+
+.text2 {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;
+}
+
+.text2 h3 {
+    color: #002347;
+    font: 600 30px arial;
+    padding: 10px;
+
+}
+
+.text2 p {
+    color: #7b838a;
+    font: italic 14px arial;
+    display: block;
+
+}
+
+.cards {
+    display: flex;
+
+
+
+}
+
+.card1,
+.card2,
+.card3 {
+    border: 1px solid #f9f9ff;
+    padding: 30px;
+    background: #f9f9ff;
+    transition: .4s;
+}
+
+.card2 {
+    margin: 0 15px;
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+    font: 200 15px arial;
+    color: #7b838a;
+}
+
+.card1 h2,
+.card2 h2,
+.card3 h2 {
+    font: 400 20px arial;
+    color: #002347;
+    padding: 15px 0;
+}
+
+.card1 i,
+.card2 i,
+.card3 i {
+    font-size: 40px;
+}
+
+.card1:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card2:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card3:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+    display: flex;
+}
+
+.cardi1,
+.cardi2,
+.cardi3 {
+    border: 1px solid #f9f9ff;
+    background: #f9f9ff;
+    margin: 10px;
+
+}
+
+.content {
+    padding: 10px;
+
+
+}
+
+.content h4 {
+    border: 1px solid #002347;
+    background: #002347;
+    color: #fff;
+    width: 70px;
+    padding: 5px 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content h2 {
+    font: 700 18px arial;
+    color: #002347;
+    text-transform: capitalize;
+    padding: 10px 0;
+    transition: .4s;
+}
+
+.cardi1:hover {
+    div h2 {
+        color: #fdc632;
+    }
+
+    .bg-card1 h6 {
+        background: #002347;
+        border: 1px solid #002347;
+        color: #fdc632;
+    }
+}
+
+.cardi2:hover {
+    div h2 {
+        color: #fdc632;
+    }
+
+    .bg-card2 h6 {
+        background: #002347;
+        border: 1px solid #002347;
+        color: #fdc632;
+    }
+}
+
+.cardi3:hover {
+    div h2 {
+        color: #fdc632;
+    }
+
+    .bg-card3 h6 {
+        background: #002347;
+        border: 1px solid #002347;
+        color: #fdc632;
+    }
+}
+
+div p {
+    font: 200 15px arial;
+    color: #7b838a;
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.icons h6[type="1"] {
+    padding: 0 10px;
+}
+
+.icons i[type="1"] {
+    padding: 0 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.user h3 {
+    font: 600 16px arial;
+    color: #002347;
+}
+
+.bg-card3 {
+    background: url('../img/c3.jpg.webp')center/cover;
+
+}
+
+.bg-card2 {
+    background: url('../img/c2.jpg.webp')center/cover;
+
+}
+
+.bg-card1 {
+    background: url('../img/c1.jpg.webp')center/cover;
+
+}
+
+.bg-card3,
+.bg-card2,
+.bg-card1 {
+    height: 40vh;
+    width: 400px;
+    position: relative;
+
+
+}
+
+.bg-card1 h6,
+.bg-card2 h6,
+.bg-card3 h6 {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    border: 1px solid #fdc632;
+    color: #002347;
+    border-radius: 50%;
+    background: #fdc632;
+    position: absolute;
+    bottom: -40px;
+    left: 75%;
+
+    font: 500 16px arial;
+    color: #002347;
+    transition: .4s;
+
+}
+
+.back {
+    background: #002347;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.inform h2 {
+    font: 700 40px arial;
+    color: #fff;
+}
+
+.inform h6 {
+    font: 300 17px arial;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.all-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5%;
+    width: 115px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: #334f6c;
+    padding: 25px 35px;
+    margin-top: 40px;
+
+}
+
+.time p{
+    font: 600 40px arial;
+    color: #fff;
+
+}
+
+.time h5{
+    font: 430 20px arial;
+    color: #fff;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 40px;
+    margin: 50px 0;
+}
+
+form h2 {
+    text-align: center;
+    color: #002347;
+    font: 700 25px arial;
+
+}
+
+form p {
+    color: #7b838a;
+    font: 300 16px arial;
+    text-align: center;
+    padding: 5px 0 20px 0;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+    padding: 12px;
+    outline: none;
+
+}
+
+input[type="tel"] {
+    margin: 20px 0;
+}
+
+input[type="submit"] {
+    margin: 20px 0;
+    background: #fdc632;
+    font: 700 15px arial;
+    color: #002347;
+}
+
+.textcard{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
