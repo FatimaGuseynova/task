@@ -677,3 +677,28 @@ ul a[type="white"]:hover{
 
 /* about us */
 
+.carda{
+    display: flex;
+    align-items: center;
+}
+
+.textcardd a{
+    text-decoration: none;
+    color:#002347;
+    border: 1px solid #fdc632;
+    background-color: #fdc632;
+    border-radius: 7px;
+    padding: 10px 25px;
+    transition: .4s;
+    font: 600 15px arial;
+}
+
+.textcardd a:hover{
+    color: #fdc632;
+    background-color: #002347;
+    border-color: #002347;
+}
+
+.textcardd[type="margin"] p{
+    margin: 20px 0;
+}
