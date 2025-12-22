@@ -60,7 +60,7 @@ nav a:hover {
     font: 600 20px arial;
 }
 
-div h1 {
+.text h1 {
     font: 700 48px arial;
     padding: 30px 0 60px 0;
 }
@@ -403,6 +403,11 @@ input[type="submit"] {
     font-size: 15px;
     color: #a0aab3;
     margin-top: 30px;
+    transition: .4s;
+}
+
+.iconscrd i:hover{
+    color: #fdc632;
 }
 
 /* fifth section */
@@ -464,3 +469,211 @@ input[type="submit"] {
 
 
 /* sixth section */
+
+.sixth-section{
+    padding: 100px 0;
+}
+
+.card[type="display"]{
+    display: flex;
+
+}
+.imgp img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    
+}
+
+.textcardd{
+    padding: 30px;
+}
+
+.textcardd h3{
+    color: #002347;
+    font: 600 20px arial;
+    margin-bottom: 15px;
+}
+
+.textcardd p{
+    line-height: 20px;
+    font-size: 17px;
+}
+
+/* footer */
+
+#all-footer-links{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.footer-links h2,.footer-subscribe h2{
+    font: 600 20px arial;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.footer-links li,.footer-subscribe p{ margin-bottom: 20px; }
+
+.footer-links a,.footer-subscribe p{
+    font: 500 16px arial;
+    color: #7b838a;
+    text-decoration: none;
+    transition: .4s;
+}
+.footer-links a:hover { color: #fff; }
+
+.footer-subscribe input{
+    width: 250px;
+    padding: 12px 0 12px 10px;
+    border: 0;
+    outline: none;
+    background-color: #334f6c;
+}
+::placeholder { font: 500 14px arial; text-transform: capitalize; color: #7b838a; }
+
+.footer-subscribe button{
+    background-color: #fdc632;
+    color: #002347;
+    text-transform: uppercase;
+    border: 0;
+    padding: 10px 20px;
+    font: 600 13px arial;
+}
+
+#all-footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+.footer-copyRight p{
+    color: #fff;
+    font: 500 16px arial;
+}
+.footer-icons a{
+    background-color: #334f6c;
+    color: #cccccc;
+    padding: 12px;
+    transition: .4s;
+}
+.footer-icons a:hover { background-color: #fdc632; color: #002347; } 
+
+/* contact us */
+
+.bg-image1{
+    background: linear-gradient(#002347ae,#002347a9), url("../img/baner2.jpg")center/cover;
+    height: 60vh;
+}
+
+ul a[type="white"]{
+    color: #fff;
+    transition: .4s;
+}
+
+ul a[type="white"]:hover{
+    color: #fdc632;
+}
+
+.textcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textcenter a{
+    text-decoration: none;
+    margin-right: 10px;
+    font: 400 17px arial;
+    color: #fff;
+}
+
+.textcenter h1{
+    margin: 20px;
+    font: 800 40px arial;
+    color: #fff;
+}
+
+.textcenter ul{
+    display: flex;
+}
+
+.textcenter{
+    align-items: center;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.conteiner[type="margin"]{
+    margin-bottom: 100px;
+}
+
+#all-contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.contact-location,.contact-number,.contact-email{ display: flex; }
+
+.contact-icon-1 i,.contact-icon-2 i,.contact-icon-3 i{
+    font-size: 20px;
+    color: #002347;
+    margin-right: 20px;
+}
+
+.contact-info h2{
+    color: #002347;
+    font: 600 16px arial;
+    margin-bottom: 8px;
+}
+
+.contact-info p{
+    color: #7b838a;
+    font: 500 14px arial;
+    margin-bottom: 25px;
+}
+
+.contact-inputs input,.contact-msj input{
+    display: block;
+    width: 380px;
+    padding: 10px 0 10px 10px;
+    outline: none;
+    border: 1px solid #8080804b;
+}
+
+.contact-inputs input[type="email"]{ margin: 10px 0; }
+
+.contact-msj input{ padding: 10px 0 110px 10px;}
+
+::placeholder {
+    color: #002347;
+    text-transform: capitalize;
+    font: 500 13px arial;
+}
+
+.contact-btn{ float: right;  }
+
+.contact-btn button{
+    background-color: #fdc632;
+    color: #002347;
+    font: 600 13px arial;
+    padding: 16px 50px;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .4s;
+}
+.contact-btn button:hover { background-color: #002347; color: #fdc632; }
+
+/* about us */
+
