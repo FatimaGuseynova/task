@@ -35,7 +35,7 @@ A professional and modern landing page for an educational platform. This project
 Clone the repository:
 
 ## Bash
-```git clone [https://github.com/your-username/samsung-clone.git](https://github.com/your-username/samsung-clone.git)```
+git clone [https://github.com/FatimaGuseynova/task.git](https://github.com/FatimaGuseynova/task.git)
 Open the project:
 Simply open index.htm in any modern web browser to view the site.
 
